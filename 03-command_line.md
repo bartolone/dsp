@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+* show current working directory path: pwd
+* creating a directory: mkdir dirname
+* deleting a directory: rm -r dirname
+* creating a file using `touch` command: touch filename
+* deleting a file rm filename
+* renaming a file mv oldname newname
+* listing hidden files: ls -a
+* copying a file from one directory to another cp dir/filename newdir/filename
+* list contents of a directory ordered by last modified: ls -t
+* copy contents of a directory to another directory cp * newdir/
 
 ---
 
@@ -35,7 +45,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+`ls`  lists the contents of the current directory
+`ls -a`  lists the contents of the current directory, including hidden files
+`ls -l`  lists the contents of the current directory in long format
+`ls -lh`  lists the contents of the current directory in long format using unit suffixes for file size
+`ls -lah`  lists the contents of the current directory, including hidden files using unit suffixes for file size
+`ls -t`  lists the contents of the current directory by how recently they were mofified
+`ls -Glp` lists the contents of the current directory in long format, colorized, with a slash after directory names
+
 
 ---
 

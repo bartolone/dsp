@@ -62,11 +62,11 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > 
-* 'ls -d' lists only the subdirectories of the current directory
-* 'ls -R' displays the contents of the current directory, plus all subdirectories
-* 'ls -1' displays the contents of the current directory on one line per item
-* 'ls -o' is like 'ls -l' but doesn't display the group name
-* 'ls -m' displays the file and directory names in a comma-separated list
+* `ls -d` lists only the subdirectories of the current directory
+* `ls -R` displays the contents of the current directory, plus all subdirectories
+* `ls -1` displays the contents of the current directory on one line per item
+* `ls -o` is like 'ls -l' but doesn't display the group name
+* `ls -m` displays the file and directory names in a comma-separated list
 
 ---
 
@@ -74,7 +74,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 'xargs' is a means for passing standard input via the pipe to functions that may not be able to handle standard input. For example you could use 'echo {a..z} | xargs touch' to pass the values a through z to the function touch one at a time -- creating 26 new files named after each letter of the alphabet.
+> > `xargs` is a means for passing standard input via the pipe to functions that may not be able to handle standard input. For example you could use 'echo {a..z} | xargs touch' to pass the values a through z to the function touch one at a time -- creating 26 new files named after each letter of the alphabet.
 
  
 

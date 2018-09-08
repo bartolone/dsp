@@ -46,13 +46,13 @@ What do the following commands do:
 `ls -Glp`  
 
 > > 
-`ls`  lists the contents of the current directory
-`ls -a`  lists the contents of the current directory, including hidden files
-`ls -l`  lists the contents of the current directory in long format
-`ls -lh`  lists the contents of the current directory in long format using unit suffixes for file size
-`ls -lah`  lists the contents of the current directory, including hidden files using unit suffixes for file size
-`ls -t`  lists the contents of the current directory by how recently they were mofified
-`ls -Glp` lists the contents of the current directory in long format, colorized, with a slash after directory names
+* `ls`  lists the contents of the current directory
+* `ls -a`  lists the contents of the current directory, including hidden files
+* `ls -l`  lists the contents of the current directory in long format
+* `ls -lh`  lists the contents of the current directory in long format using unit suffixes for file size
+* `ls -lah`  lists the contents of the current directory, including hidden files using unit suffixes for file size
+* `ls -t`  lists the contents of the current directory by how recently they were mofified
+* `ls -Glp` lists the contents of the current directory in long format, colorized, with a slash after directory names
 
 
 ---
@@ -61,7 +61,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+* 'ls -d' lists only the subdirectories of the current directory
+* 'ls -R' displays the contents of the current directory, plus all subdirectories
+* 'ls -1' displays the contents of the current directory on one line per item
+* 'ls -o' is like 'ls -l' but doesn't display the group name
+* 'ls -m' displays the file and directory names in a comma-separated list
 
 ---
 
@@ -69,7 +74,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'xargs' is a means for passing standard input via the pipe to functions that may not be able to handle standard input. For example you could use 'echo {a..z} | xargs touch' to pass the values a through z to the function touch one at a time -- creating 26 new files named after each letter of the alphabet.
 
  
 

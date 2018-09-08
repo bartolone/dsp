@@ -74,7 +74,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > `xargs` is a means for passing standard input via the pipe to functions that may not be able to handle standard input. For example you could use 'echo {a..z} | xargs touch' to pass the values a through z to the function touch one at a time -- creating 26 new files named after each letter of the alphabet.
+> > `xargs` is a means for passing standard input via the pipe to functions that may not be able to handle standard input. For example you could use `echo {a..z} | xargs touch` to pass the values a through z to the function touch one at a time -- creating 26 new files named after each letter of the alphabet.
 
  
 

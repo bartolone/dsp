@@ -87,16 +87,19 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
 >> I'm going to assume that the probability that fraternal twins are each male or female is 50-50 -- I couldn't find anything indicating their sex distribution wasn't independent, and 50-50 is close enough for this estimate.
-Therefore the relevant probabilities are:
-Probability of fraternal twins: 1/125, or .008
-Probability of identical twins: 1/300, or .0033
-Probability that identical twins are both male: .5
-Probability that fraternal twins are both male: .25
 
-Using Bayes' Theorem, the probability that Elvis and his twin were identical given that he was male equals:
-The probability that identical twins are both male `(.0033 * .5)` divided by
-The probability that any given sets of twins are both male `(.0033 * .5) + (.008 * .25)`
-This equals about `45.5%`, or more precisely `5/11`.
+>> Therefore the relevant probabilities are:
+
+>> * Probability of fraternal twins: 1/125, or .008
+>> * Probability of identical twins: 1/300, or .0033
+>> * Probability that identical twins are both male: .5
+>> * Probability that fraternal twins are both male: .25
+
+>> Using Bayes' Theorem, the probability that Elvis and his twin were identical given that he was male equals:
+>> * The probability that identical twins are both male `(.0033 * .5)` divided by
+>> * The probability that any given sets of twins are both male `(.0033 * .5) + (.008 * .25)`
+
+>> This equals about `45.5%`, or more precisely `5/11`.
 
 
 
@@ -105,7 +108,9 @@ This equals about `45.5%`, or more precisely `5/11`.
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> As I understand it, frequentist statistics relate only to observations of (presumably) random samples of events, and there is no place for assigning probabilities based on any other factors. The probability is assumed to be the proportion of times that an event occurs within a (large) random sample of such events -- the larger the set of observations, the closer the observed probability will presumably be to the true probability.
+
+>> Bayesian statistics, on the other hand, incorporates hypotheses in the form of prior probabilities that can be used to calculate hypothesized probabilities. These priors can be updated as new information is received or new observations are recorded. In other words, Bayesian statistics can incorporate information in the form of past observations or subjective assumptions or beliefs, whereas frequentist statistics are based on observations alone.
 
 ---
 
